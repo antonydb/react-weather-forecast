@@ -1,0 +1,25 @@
+.ForecastItems {
+  display: flex;
+  margin: 40px;
+}
+
+.ForecastItem {
+  flex: 1 auto;
+  padding: 10px;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: #eee;
+  text-align: center;
+}
+
+.ForecastItem:first-child {
+  border-left-width: 1px;
+}
+
+.ForecastItem-temp {
+  font-size: 2rem;
+}
+
+.Temperature-min {
+  color: #999;
+}
